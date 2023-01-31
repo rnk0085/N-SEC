@@ -1,0 +1,17 @@
+# https://neos21.net/blog/2020/08/23-01.html
+# https://docs.github.com/ja/actions/security-guides/encrypted-secrets
+
+name: Deploy To Glitch
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy To Glitch
+        uses: kanadgupta/glitch-sync@master
+        with:
+          project-id: '${{ secrets.PROJECT_ID }}'
+          auth-token: '${{ secrets.AUTH_TOKEN }}'
