@@ -1,0 +1,19 @@
+{
+  "name": "n-sec",
+  "version": "1.0.0",
+  "description": "N-SECのWebアプリのプロトタイプ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnk0085/N-SEC.git"
+  },
+  "author": "rnk0085",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnk0085/N-SEC/issues"
+  },
+  "homepage": "https://github.com/rnk0085/N-SEC#readme"
+}
