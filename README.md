@@ -1,7 +1,10 @@
 # N-SEC
 N-SEC：Webアプリのプロトタイプ作成用Repository
 
-デプロイ先URL：https://n-sec.glitch.me
+## デプロイ
+- デプロイ先URL：https://n-sec.glitch.me
+- 使用ツール
+  - [Glitch](https://glitch.com/)
 
 ### 参考
 Udemy の講座がベースとなっている
