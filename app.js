@@ -17,3 +17,7 @@ app.listen(3000, () => {
 app.get('/', (req, res) => {
     res.render('top');
 });
+
+app.get('/quest/1/details', (req, res) => {
+    res.render('quest_details');
+});
