@@ -10,6 +10,9 @@ app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+// https://qiita.com/tky529/items/515aa38b6f667f6808f8
+app.use("/public", express.static("public"));
+
 app.listen(3000, () => {
     console.log('ポート3000でリクエスト待受中...');
 });
