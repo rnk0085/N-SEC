@@ -1,12 +1,13 @@
 <% layout('layouts/boilerplate') %>
 <h1>クエスト#1の詳細一覧画面</h1>
 
-<a href="/quest/1/details" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">投稿する</a>
+<button type="button" class="btn btn-primary" onclick="location.href='/quest/1'">投稿</button>
+<p></p>
 <img src="/public/images/map.png" class="img-fluid" alt="西新宿のマップ">
 <p>住所: 〒160-0023 東京都新宿区西新宿2-11</p>
 
 <!-- https://getbootstrap.com/docs/5.3/components/card/#grid-cards -->
-<div class="row row-cols-2 row-cols-md-3 g-4">
+<div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
         <div class="card">
           <img src="/public/images/example1.jpg" class="card-img-top">
