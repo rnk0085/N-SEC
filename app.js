@@ -24,3 +24,15 @@ app.get('/', (req, res) => {
 app.get('/quest/1/details', (req, res) => {
     res.render('quest_details');
 });
+
+app.get('/quest/1', (req, res) => {
+    res.render('quest_form');
+});
+
+app.get('/tab', (req, res) => {
+    res.render('tab_page');
+});
+
+app.get('/twitter', (req, res) => {
+    res.render('like_twitter');
+});

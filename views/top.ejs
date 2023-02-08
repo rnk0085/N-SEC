@@ -1,5 +1,71 @@
 <% layout('layouts/boilerplate') %>
-<h1>TOP画面</h1>
+<div class="container">
+    <h1>TOP画面</h1>
+</div>
 
 <!-- https://getbootstrap.com/docs/5.3/content/images/ -->
-<img src="public/images/map.png" class="img-fluid" alt="西新宿のマップ">
+<div class="quest-button">
+    <img src="public/images/map.png" class="img-fluid" alt="西新宿のマップ">
+
+    <a class="btn btn-primary quest-1" href="/quest/1/details" role="button">クエスト#1</a>
+    <a class="btn btn-primary quest-2" href="#" role="button">クエスト#2</a>
+    <a class="btn btn-primary quest-3" href="#" role="button">クエスト#3</a>
+</div>
+
+<p></p>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+            <img src="/public/images/example3.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">散歩</h5>
+                <p class="card-text">犬を連れている人が多かった</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">クエスト#2</small>
+            </div>      
+            </div>
+        </div>
+
+        <div class="col">
+        <div class="card">
+            <img src="/public/images/example1.jpg" class="card-img-top">
+            <div class="card-body">
+            <h5 class="card-title">太極拳</h5>
+            <p class="card-text"></p>
+            </div>
+            <div class="card-footer">
+            <small class="text-muted">クエスト#1</small>
+            </div>  
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card">
+            <img src="/public/images/example2.jpg" class="card-img-top">
+            <div class="card-body">
+            <h5 class="card-title">散歩</h5>
+            <p class="card-text"></p>
+            </div>
+            <div class="card-footer">
+            <small class="text-muted">クエスト#2</small>
+            </div>  
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card">
+            <img src="/public/images/default.png" class="card-img-top">
+            <div class="card-body">
+            <h5 class="card-title">ラジオ体操</h5>
+            <p class="card-text">100人ほどいました！</p>
+            </div>
+            <div class="card-footer">
+            <small class="text-muted">クエスト#1</small>
+            </div>  
+        </div>
+        </div>
+    </div>
+</div>

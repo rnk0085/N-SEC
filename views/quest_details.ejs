@@ -1,47 +1,47 @@
 <% layout('layouts/boilerplate') %>
-<h1>クエスト#1の詳細一覧画面</h1>
-<img src="/public/images/map.png" class="img-fluid" alt="西新宿のマップ">
-<p>住所: 〒160-0023 東京都新宿区西新宿2-11</p>
+<div class="container">
+    <h1>クエスト#1の詳細一覧画面</h1>
+    <button type="button" class="btn btn-primary" onclick="location.href='/quest/1'">投稿</button>
+</div>
+<p></p>
 
-<!-- https://getbootstrap.com/docs/5.3/components/card/#grid-cards -->
-<div class="row row-cols-2 row-cols-md-3 g-4">
-    <div class="col">
-        <div class="card">
-          <img src="/public/images/example3.jpg" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">散歩</h5>
-            <p class="card-text">犬を連れている人が多かった</p>
-          </div>
-        </div>
-      </div>
+<div class="quest-button">
+    <img src="/public/images/map.png" class="img-fluid" alt="西新宿のマップ">
 
-    <div class="col">
-      <div class="card">
-        <img src="/public/images/example1.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">太極拳</h5>
-          <p class="card-text"></p>
-        </div>
-      </div>
-    </div>
+    <!-- TODO: ボタンの遷移先 -->
+    <a class="btn btn-primary quest-1" href="/quest/1/details" role="button">クエスト#1</a>
+</div>
 
-    <div class="col">
-      <div class="card">
-        <img src="/public/images/example2.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">散歩</h5>
-          <p class="card-text"></p>
-        </div>
-      </div>
-    </div>
+<!-- <img src="/public/images/map.png" class="img-fluid" alt="西新宿のマップ"> -->
+<div class="container">
+    <p>住所: 〒160-0023 東京都新宿区西新宿2-11</p>
 
-    <div class="col">
-      <div class="card">
-        <img src="/public/images/default.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">ラジオ体操</h5>
-          <p class="card-text">100人ほどいました！</p>
+    <!-- https://getbootstrap.com/docs/5.3/components/card/#grid-cards -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+            <img src="/public/images/example1.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">太極拳</h5>
+                <p class="card-text"></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">クエスト#1</small>
+            </div>  
+            </div>
         </div>
-      </div>
+
+        <div class="col">
+            <div class="card">
+            <img src="/public/images/default.png" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">ラジオ体操</h5>
+                <p class="card-text">100人ほどいました！</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">クエスト#1</small>
+            </div>  
+            </div>
+        </div>
     </div>
 </div>
