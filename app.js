@@ -32,3 +32,7 @@ app.get('/quest/1', (req, res) => {
 app.get('/tab', (req, res) => {
     res.render('tab_page');
 });
+
+app.get('/twitter', (req, res) => {
+    res.render('like_twitter');
+});
