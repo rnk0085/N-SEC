@@ -28,3 +28,7 @@ app.get('/quest/1/details', (req, res) => {
 app.get('/quest/1', (req, res) => {
     res.render('quest_form');
 });
+
+app.get('/tab', (req, res) => {
+    res.render('tab_page');
+});
