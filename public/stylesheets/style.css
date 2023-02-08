@@ -1,11 +1,30 @@
+/* https://saruwakakun.com/html-css/reference/image-text */
 .quest-button {/*親div*/
     position: relative;/*相対配置*/
 }
 
-.quest-button a {/*aタグを画像の真ん中に*/
+.quest-1 {
     position: absolute;
     top: 50%;
     left: 20%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.quest-2 {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.quest-3 {
+    position: absolute;
+    top: 80%;
+    left: 80%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
