@@ -1,0 +1,16 @@
+.quest-button {/*親div*/
+    position: relative;/*相対配置*/
+}
+
+.quest-button a {/*aタグを画像の真ん中に*/
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.quest-button img {
+    width: 100%;
+}
