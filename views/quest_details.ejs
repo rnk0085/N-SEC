@@ -1,11 +1,18 @@
 <% layout('layouts/boilerplate') %>
 <div class="container">
     <h1>クエスト#1の詳細一覧画面</h1>
-
     <button type="button" class="btn btn-primary" onclick="location.href='/quest/1'">投稿</button>
 </div>
 <p></p>
-<img src="/public/images/map.png" class="img-fluid" alt="西新宿のマップ">
+
+<div class="quest-button">
+    <img src="/public/images/map.png" class="img-fluid" alt="西新宿のマップ">
+
+    <!-- TODO: ボタンの遷移先 -->
+    <a class="btn btn-primary quest-1" href="/quest/1/details" role="button">クエスト#1</a>
+</div>
+
+<!-- <img src="/public/images/map.png" class="img-fluid" alt="西新宿のマップ"> -->
 <div class="container">
     <p>住所: 〒160-0023 東京都新宿区西新宿2-11</p>
 
